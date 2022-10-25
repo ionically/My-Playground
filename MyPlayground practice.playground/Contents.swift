@@ -34,3 +34,33 @@ for num in stride(from:40, to:10, by: -11)
 {
     print(num)
 }
+//iterating over a groups: 2nd types of for loops
+//iterated over a data structure
+var shoppinglist = ["Apples", "Oranges", "Bananas", "Mango"]
+var legend = ["blue":"ocean","green":"land"]
+
+//1st difference
+for item in shoppinglist {
+    print(item)
+}
+for item in legend{
+    print(item)
+}
+//item in shoppinglist:used loops
+//see the difference
+//2nd
+shoppinglist
+ //getting or iterating the index and value
+for (index,value) in shoppinglist.enumerated(){
+    print(index)
+    print(value)
+}
+for (index,value) in legend.enumerated(){
+    print(index)
+    print(value)
+}
+//enumerated functions alows to get the position of index and value as used as many times
+
+var list = ["end"]
+    
+
