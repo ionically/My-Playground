@@ -1,34 +1,36 @@
 import UIKit
-var item1 = "Apples"
-var item2 = "Oranges"
 
-var shoppinglist = ["Apples", "Oranges", "Bananas"]
-//var shoppinglist = []
-print(shoppinglist[1])
-shoppinglist.count
-shoppinglist.append("Milk")
-shoppinglist
-
-shoppinglist.last
-shoppinglist.first
-shoppinglist.count
-print(shoppinglist)
-shoppinglist.removeAll()
-
-var newArr = [Int]()
-newArr.count
-newArr.append(5)
-newArr.append(6)
-print(newArr)
-newArr[0] = 10
-print(newArr)
-newArr[1] = 20
-print(newArr)
-newArr.append(40)
-newArr.append(60)
-newArr.append(80)
-newArr.append(100)
-print(newArr)
-newArr[5] = 20000
-print(newArr)
-
+print("hello")
+print("hello")
+print("hello")
+print("hello")
+print("hello")
+//loop
+//loops by using:
+//iterations for numbers: 1st type of for loops
+//iterations: 1,2,3,4,5,6,7,8,9,10
+//iterates:suppose we need list from 1-10
+//i = some range or can be any variable suppose called as num
+for num in 1...10 {
+    print(num)
+}
+for num in 11...20 {
+    print(num)
+}
+//stride is to use all even numbers
+for num in stride(from:2, to:10, by:4)
+{
+    print(num)
+}
+for num in stride(from:0, to:50, by: 2)
+{
+    print(num)
+}
+for num in stride(from:50, to:0, by: -5)
+{
+    print(num)
+}
+for num in stride(from:40, to:10, by: -11)
+{
+    print(num)
+}
