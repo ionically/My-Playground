@@ -1,8 +1,5 @@
 import UIKit
-// switch and loop control statements are used for specific value or case and based on how it works with respctive code suppose if age is 16
-
-var age = 16
-
+var age = 18
 switch age {
     
 case 14:
@@ -14,6 +11,6 @@ case 16:
 default:
     print("not sure how old you are")
 }
-   
-
+//that is what we switch a variable
+//thats how we use default case
 
