@@ -60,7 +60,9 @@ for (index,value) in legend.enumerated(){
     print(value)
 }
 //enumerated functions alows to get the position of index and value as used as many times
-
 var list = ["end"]
-    
+for (index,value) in list.enumerated(){
+    print(index)
+    print(value)
+}
 
