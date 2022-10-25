@@ -1,22 +1,18 @@
 import UIKit
-//breaks and continue
-//continue is use to skip
-//then break then skip and continue
-//suppose
+//func are making life much easiers
 
-var age = 15
-for i in 1...10 {
-    if i == 5 && i == 6 {
-        continue
-    }
-    print(i)
+print("Hello World")
+print("How are You")
+
+func firstFunction() {
+    print("Hello World")
+    print("How are You")
 }
-for i in 1...10 {
-    if i == 5 || i == 6 {
-        continue
-    }
-    print(i)
-}
-//(&&)and can be used to for not skipping and continue along with the given integers  but
-//or operator skip both and continue by removing the both skiped integers
-var list = ["end"]
+
+firstFunction()
+firstFunction()
+
+
+
+
+
