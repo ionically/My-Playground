@@ -1,23 +1,20 @@
 import UIKit
-//using break in loop
-//it is used to control the loops
-//break stops looping at a stand when it is used to func control
-//suppose
-var age = 15
-for i in 1...14 {
-    print(i)
-    //hence if i had to control it till 5 or 6
-    //then i say
-    
-    if i == 6 {
-        break
+var age = 20
+for i in 1...10 {
+    for j in 1...8 {
+        if j == 6 {
+            print(i)
+        }
     }
 }
-for i in 1...15 {
-    print(i)
-    if i == 5 {
-        break
+for i in 1...10 {
+    for j in 1...8 {
+        if j == 6 {
+            print(j)
+        }
     }
 }
-//so thats what break does it terminates the loop
+//difference
+//i loops 1,2,3,4,5,6,7,8,9,10
+//and here j loops (6666666666) ie; 6 10 times
 
