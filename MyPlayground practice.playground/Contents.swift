@@ -1,26 +1,20 @@
 import UIKit
 
-protocol fly {
-    
-    var weight : Int {get set}
-    
-    func fly() -> String
-    
-}
-
-class Pigeon : fly {
-    
-    var weight = 40
-    
-    func fly() -> String {
-        return "Flying"
+extension Int {
+    mutating func plusOne() {
+            self += 1
+        }
     }
     
-}
-var p = Pigeon()
-print(p.fly())
-p.weight = 20
-print(p.weight)
+var num1 = 0
+num1.plusOne()
+print(num1)
 
-var sent = "\"Finished\""
-print(sent)
+extension Int {
+    mutating func square() {
+        self *= self
+    }
+}
+num1.square()
+print(num1)
+
